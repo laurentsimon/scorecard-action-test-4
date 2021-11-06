@@ -1,1 +1,0 @@
-# scorecard-action-test-4
