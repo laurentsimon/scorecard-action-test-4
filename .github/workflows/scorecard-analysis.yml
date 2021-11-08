@@ -24,7 +24,8 @@ jobs:
         uses: ossf/scorecard-actions/analyze@feat/analyze
         with:
           policy_file: .github/scorecard-policy.yml
-          sarif_file: results.sarif
+          results_file: results.sarif
+          results_format: sarif
           repo_token: ${{ secrets.GITHUB_TOKEN }}
 
       # https://docs.github.com/en/actions/advanced-guides/storing-workflow-data-as-artifacts
